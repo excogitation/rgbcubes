@@ -11,6 +11,7 @@ box was built within no time making use of the outline generation @ [boxmaker](h
 The result was even better than expected:
 ![firstbox yellow](https://raw.github.com/excogitation/rgbcubes/master/pics/firstbox_yellow.png)
 ![firstbox blue](https://raw.github.com/excogitation/rgbcubes/master/pics/firstbox_blue.png)
+
 ^ This is done with a single ws1812b led.
 
 The light bounces (becomes diffuse) to even illuminate the whole box.
@@ -20,13 +21,13 @@ that you can control through a webpage or better yet through your phone and
 doubles as a room light (defaulting to white when switching the power on).
 
 BOM / cost estimation for 50 pcs as follows:
-~~ 250€ (5€/piece) acrylic 6.144 qm   @ ~ 40€/qm
-25€ wr703n 
-5,30$ [32u4](http://www.aliexpress.com/item/Free-Shipping-New-Pro-Micro-for-arduino-ATmega32U4-5V-16MHz-Module-with-2-row-pin-header/1576902211.html)
-12,87$ [50 pcs led on pcb](http://www.aliexpress.com/item/DC5V-mini-board-10mm-3mm-WS2812B-LED-with-Heatsink-RGB-5050-SMD-WS2811-IC-Built-in/32227387034.html)
-16,14$ [50 pcs male + female connectors](http://www.aliexpress.com/item/50-pairs-lot-4-PIN-Male-and-Female-RGB-connector-coupler-Wire-Cable-For-3528-5050/1374657964.html)
+* ~~ 250€ (5€/piece) acrylic 6.144 qm   @ ~ 40€/qm
+* 25€ wr703n 
+* 5,30$ [32u4](http://www.aliexpress.com/item/Free-Shipping-New-Pro-Micro-for-arduino-ATmega32U4-5V-16MHz-Module-with-2-row-pin-header/1576902211.html)
+* 12,87$ [50 pcs led on pcb](http://www.aliexpress.com/item/DC5V-mini-board-10mm-3mm-WS2812B-LED-with-Heatsink-RGB-5050-SMD-WS2811-IC-Built-in/32227387034.html)
+* 16,14$ [50 pcs male + female connectors](http://www.aliexpress.com/item/50-pairs-lot-4-PIN-Male-and-Female-RGB-connector-coupler-Wire-Cable-For-3528-5050/1374657964.html)
 ^^ could have longer leads; could do with only 3 pins
-[JSTSM connector datasheet](https://www.adafruit.com/datasheets/JSTSM.pdf)
+[JSTSM connector datasheet (SMB-04v-B(N)C)](https://www.adafruit.com/datasheets/JSTSM.pdf).
 ___
 350€ / 50pcs (including laser cutter time)
 
